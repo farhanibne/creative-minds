@@ -14,6 +14,7 @@ import {
   updateDoc,
 } from "firebase/firestore";
 
+
 export default function Details() {
   const router = useRouter();
   const routeData = router.query;
